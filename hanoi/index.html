@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Tic-Tac-Toe On the Web</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="underscore.js"></script>
+  <script src="towers.js"></script>
+  <script src="hanoiUI.js"></script>
+  <link rel="stylesheet" href="towers.css" type="text/css">
+</head>
+<body>
+  <h1>THE TOWERS OF DEATHHHHH</h1>
+
+  <div id="towers">
+  </div>
+
+  </div>
+  <h1 id="winner"></h1>
+
+  <script>
+  $(function() {
+    var game = new Hanoi.Game();
+    var UI = new Hanoi.HanoiUI(game, $('#towers'));
+  })
+
+  // var game = new Hanoi.HanoiUI($('#towers'));
+  </script>
+
+</body>
+</html>
