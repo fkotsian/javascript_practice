@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+#towers {
+  width: 606px;
+  height: 155px;
+  margin: auto;
+  border: black solid 1px;
+}
+
+.tower {
+  width: 200px;
+  height: 155px;
+  float: left;
+  border: solid 1px black;
+
+}
+
+.ring {
+  width: 200px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  margin: auto;
+/*  border: red solid 1px;*/
+}
+
